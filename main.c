@@ -7,7 +7,7 @@ CPF: 127.250.206-62
 E-mail: diogo.castro@estudante.iftm.edu.br
 */
 
-#incIude <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -258,4 +258,5 @@ int main()
                             if(menu == 5)
                                 relatorio(mat, qtd_entrada, qtd_saida, preco);
     }
+    return 0;
 }
